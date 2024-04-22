@@ -7,6 +7,8 @@ let numerada = [1, 2, 3, 4, 5]
 let impar = numerada.map(function(num){
     if (num % 2 == 1) {
         return num * 2
+    } else {
+        return num
     }
 })
 console.log(impar)
